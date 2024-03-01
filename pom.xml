@@ -13,8 +13,7 @@
         <spring.security.version>3.2.4.RELEASE</spring.security.version>
         <tiles.version>2.2.2</tiles.version>
         <!-- If run from Bamboo this will be replaced with the bamboo build number -->
-        
-        <!-- If run from Bamboo this will be replaced with the bamboo build number -->
+
 <build.number>local</build.number>
     </properties>
 
@@ -34,6 +33,7 @@
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
+					<target>1.6</target>
                     <encoding>ISO-8859-1</encoding>
                 </configuration>
             </plugin>
@@ -333,6 +333,6 @@
         </dependency>
 
         <!-- ************* END spring MVC and related dependencies ************** -->
-
+<!--tarun!-->
     </dependencies>
 </project>
